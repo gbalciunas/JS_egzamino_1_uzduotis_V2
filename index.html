@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weight Converter uzduotis 1</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="wrapper">
+        <p>Įveskite reikšmę kilogramais</p>
+        <input type="text" id="kilograms"><br><span id="error"></span>
+
+        <p>
+            Konvertuoti į:
+            <select id="type">
+                <option value="Pounds">svarus (lb)</option>
+                <option value="Grams">gramus (g)</option>
+                <option value="Ounces">uncijas (oz)</option>               
+            </select>
+       </p>
+
+       <button id="btn">Konvertuoti</button>
+       <p id="output"></p>
+
+    </div>
+    
+</body>
+</html>

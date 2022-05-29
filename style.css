@@ -1,0 +1,85 @@
+html {
+    height: 100%;
+   font-size: 30px;
+}
+
+
+body {
+    background-color: rgb(13, 85, 109);
+    color: rgb(13, 85, 109);
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+}
+
+#output {
+    font-size: 30px;
+    color: rgb(13, 85, 109);
+}
+
+span {
+    color: brown;
+    white-space: nowrap;
+    font-size: 25px;
+    font-style: italic;
+}
+.wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: orange;
+    border-radius: 10px;
+    padding: 40px;
+    box-shadow: 0px 10px 30px 5px  rgb(199, 199, 199) ;
+
+}
+
+input {
+    border: none;
+    border-bottom: 1px solid rgb(13, 85, 109);
+    outline: none;
+    background: transparent;
+    color: rgb(13, 85, 109);
+    font-size: 1.1em;
+}
+
+select {
+    outline: none;
+    font-size: 0.9em;
+    padding: 3px;
+    color: rgb(13, 85, 109);
+    border: 1px solid rgb(13, 85, 109);
+    border-radius: 5px;   
+/* box-shadow: 0px 3px 10px 1px #fff;*/
+
+}
+    /*select option {
+    
+    border: none;
+    padding: 5px;
+    background: rgba(226, 81, 118, 0.3);
+    color: #efefef;
+    
+}
+
+select option[value="Puonds"] {
+    background: rgba(99, 113, 235, 0.3);
+   padding-top: 10px;
+
+} */
+
+button {
+    color: rgb(13, 85, 109);
+    padding: 5px;
+    border:1px solid #efefef;
+    border-radius: 5px;
+    background: #efefef;
+    cursor: pointer;
+    font-size: 0.9em;
+}
+ button:hover {
+     background: rgb(13, 85, 109);
+     color: #efefef;
+     cursor: pointer;
+ }
